@@ -27,8 +27,7 @@ let week = [
 ];
 lang == 'ru' ? console.log(String(week[0])) : console.log(String(week[1]));
 
-let namePerson = prompt('Введите имя').toLocaleLowerCase;
+let namePerson = prompt('Введите имя').toLowerCase();
 
-let name =
-  (namePerson == 'артем') ? console.log('директор') :
-    (namePerson == 'максим') ? console.log('преподаватель') : console.log('студент');
+(namePerson == 'артем') ? console.log('директор') :
+  (namePerson == 'максим') ? console.log('преподаватель') : console.log('студент');
